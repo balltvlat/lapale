@@ -1,0 +1,96 @@
+ .u-section-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-custom-html-1 {
+  height: auto;
+  min-height: 837px;
+  width: 1349px;
+  margin: 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    min-height: 568px;
+    width: 940px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 340px;
+  }
+}#username {
+  background-color: #1e1e1e; /* para fondo oscuro */
+  border: 1px solid #fff; /* para borde blanco delgado */
+  border-radius: 30px; /* para bordes redondos */
+  color: #fff; /* para texto en blanco */
+  font-family: Arial, sans-serif; /* para cambiar la fuente */
+  font-size: 16px; /* para cambiar el tamaÃ±o de la fuente */
+  padding: 12px 20px; /* para agregar espacio interno */
+  outline: none; /* para eliminar el contorno al hacer clic */
+  transition: all 0.3s ease-in-out; /* para agregar una transiciÃ³n suave */
+}
+#username::placeholder {
+  color: #a6a6a6; /* para cambiar el color del placeholder */
+}
+#username:hover {
+  border-color: #d9d9d9; /* para cambiar el color del borde al pasar el cursor */
+}
+#username:focus {
+  border-color: #6d6d6d; /* para cambiar el color del borde al hacer clic */
+  box-shadow: 0 0 10px #6d6d6d; /* para agregar una sombra suave */
+}
+#password {
+  background-color: #1e1e1e; /* para fondo oscuro */
+  border: 1px solid #fff; /* para borde blanco delgado */
+  border-radius: 30px; /* para bordes redondos */
+  color: #fff; /* para texto en blanco */
+  font-family: Arial, sans-serif; /* para cambiar la fuente */
+  font-size: 16px; /* para cambiar el tamaÃ±o de la fuente */
+  padding: 12px 20px; /* para agregar espacio interno */
+  outline: none; /* para eliminar el contorno al hacer clic */
+  transition: all 0.3s ease-in-out; /* para agregar una transiciÃ³n suave */
+}
+#password::placeholder {
+  color: #a6a6a6; /* para cambiar el color del placeholder */
+}
+#password:hover {
+  border-color: #d9d9d9; /* para cambiar el color del borde al pasar el cursor */
+}
+#password:focus {
+  border-color: #6d6d6d; /* para cambiar el color del borde al hacer clic */
+  box-shadow: 0 0 10px #6d6d6d; /* para agregar una sombra suave */
+}
+#login-btn {
+  background-color: #007bff; /* para fondo del botÃ³n */
+  border: none; /* para eliminar el borde */
+  border-radius: 25px; /* para bordes redondos */
+  color: #fff; /* para texto en blanco */
+  cursor: pointer; /* para cambiar el cursor al pasar por encima */
+  font-family: Arial, sans-serif; /* para cambiar la fuente */
+  font-size: 16px; /* para cambiar el tamaÃ±o de la fuente */
+  padding: 12px 20px; /* para agregar espacio interno */
+  text-align: center; /* para centrar el texto */
+  text-decoration: none; /* para eliminar la decoraciÃ³n de texto */
+  display: inline-block; /* para que el botÃ³n se ajuste al tamaÃ±o del texto */
+  transition: all 0.3s ease-in-out; /* para agregar una transiciÃ³n suave */
+}
+#login-btn:hover {
+  background-color: #0069d9; /* para cambiar el color del fondo al pasar el cursor */
+}
+#login-btn:active {
+  background-color: #0053a1; /* para cambiar el color del fondo al hacer clic */
+} 
